@@ -1,0 +1,21 @@
+# === Secretos y artefactos locales — NUNCA versionar ===
+*.pem
+.env
+.env.local
+SECRETS.local.md
+
+# Herramientas/agente
+.opencode/
+
+# Node / build
+node_modules/
+dist/
+dist-verify/
+.expo/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# scaffold artifacts locales
+.claude/
